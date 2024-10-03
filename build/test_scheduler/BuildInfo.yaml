@@ -1,0 +1,34 @@
+---
+compiled_package_info:
+  package_name: test_scheduler
+  address_alias_instantiation:
+    binks: fe19f4b19be5204b261023e925dd6538a3f6333b86a4d766213e0adf8eb34f53
+    jarjar_scheduler: bc6dea62e1c4f7f4b50c5e2226501af65a25b486f7f8063cad0c462466fb4d81
+    std: "0000000000000000000000000000000000000000000000000000000000000001"
+    sui: "0000000000000000000000000000000000000000000000000000000000000002"
+    test_scheduler: "0000000000000000000000000000000000000000000000000000000000000000"
+  source_digest: 2E83EEF114610288439C96293AC14033187FD13084E925446C2993720F40F303
+  build_flags:
+    dev_mode: false
+    test_mode: false
+    generate_docs: false
+    install_dir: ~
+    force_recompilation: false
+    lock_file: "./Move.lock"
+    fetch_deps_only: false
+    skip_fetch_latest_git_deps: false
+    default_flavor: sui
+    default_edition: ~
+    deps_as_root: false
+    silence_warnings: false
+    warnings_are_errors: false
+    json_errors: false
+    additional_named_addresses: {}
+    lint_flag:
+      no_lint: false
+      lint: false
+dependencies:
+  - MoveStdlib
+  - Sui
+  - binks
+  - jarjar_scheduler
